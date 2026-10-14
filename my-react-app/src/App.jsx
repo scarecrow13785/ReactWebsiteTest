@@ -9,7 +9,7 @@ function App() {
     //Returns can only return ONE THING, hence, the <></>
     //<Header/> and <Header></Header> are the same thing
     <>
-      <Header/> 
+      <Header/>
       <Footer/>
       <Burger/>
     </> 
