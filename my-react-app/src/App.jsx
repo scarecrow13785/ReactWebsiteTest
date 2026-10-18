@@ -2,12 +2,14 @@ import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import Burger from './Burger.jsx'
 import Card from './Card.jsx'
+import Table from './Table.jsx'
 
 function App() {
   
   return(
     <>
       <Header/>
+      
       <Card 
         imgLink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqML2-wrIKA4W3eo_PSjZ2KIwGOrYjQZwLLTK_MmKN8A&s=10" 
         reason="He was engaged in a high speed chase with an ice cream truck" 
@@ -23,12 +25,12 @@ function App() {
       <Card 
       imgLink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqPLu4o-WeSuIiXPGHnYru9d_QG1vyVx5q8a-LZeKemA&s=10" 
       reason="He had to emotionally recover from listening to the class playlist" 
-      comment="He will be forever scared "/>
+      comment="He will be forever scarred "/>
       <Card 
       imgLink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsWvFFuX5pSHCtTZ0r0T6uwGmWfRnO3NktcZeuNGBXqA&s=10" 
       reason="His house was locked and taked for ransom by an AI" 
       comment="This is not what I thought when I was told AI was going to make me lose my job"/>
-
+      <Table/>
     </>
       
   );
