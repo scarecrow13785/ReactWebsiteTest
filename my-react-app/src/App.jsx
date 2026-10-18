@@ -28,7 +28,7 @@ function App() {
       comment="He will be forever scarred "/>
       <Card 
       imgLink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsWvFFuX5pSHCtTZ0r0T6uwGmWfRnO3NktcZeuNGBXqA&s=10" 
-      reason="His house was locked and taked for ransom by an AI" 
+      reason="His house was locked and taken for ransom by an AI" 
       comment="This is not what I thought when I was told AI was going to make me lose my job"/>
       <Table/>
     </>
