@@ -29,6 +29,7 @@ function Table(){
                     <td>0</td>
                 </tr>
             </table>
+            <p><a href="/burger">AAAAAAAAAAAAAAA</a></p>
         </div>
     )
 }

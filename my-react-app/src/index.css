@@ -12,7 +12,6 @@
 .colored-button:active{
   transform:scale(0.4)
 }
-
 .card{
   border: 1px solid black;
   border-radius: 10px;
@@ -22,7 +21,6 @@
   text-align: center;
   max-width: 200px;
   display:inline-table /* The type of style i guess */
-  
 }
 .attendanceTable{
   border: 1px solid black;
