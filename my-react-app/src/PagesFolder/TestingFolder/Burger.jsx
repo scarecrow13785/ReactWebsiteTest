@@ -1,4 +1,11 @@
 import { useEffect, useState } from "react";
+import { href } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom'
 
 function Burger(){
 
@@ -25,19 +32,20 @@ function Burger(){
             <head>
                 <link rel="stylesheet" href="index.css"></link>
             </head>
-            <button class = "colored-button">
-            Blank Button
+            <button
+            className = "colored-button"
+            onClick={<Navigate to="/" />}>
+                Go To New Page
             </button>
 
             <button
             onClick={() => alert("ALERT: you have been ALERTED")}>
             Alert test
             </button>
-
             <div>
                 <p>Everchanging random number: {count}</p>
+                <p><a href="/">Link tlo</a></p>
             </div>
-
         </>
     );
 }

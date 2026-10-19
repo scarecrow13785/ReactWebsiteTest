@@ -1,4 +1,3 @@
-import Header from './Header.jsx'
 import Card from './Card.jsx'
 import Table from './Table.jsx'
 
@@ -6,7 +5,6 @@ function ReasonsLate(){
     
     return(
         <>
-            <Header/>
             <Card 
                 imgLink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqML2-wrIKA4W3eo_PSjZ2KIwGOrYjQZwLLTK_MmKN8A&s=10" 
                 reason="He was engaged in a high speed chase with an ice cream truck" 

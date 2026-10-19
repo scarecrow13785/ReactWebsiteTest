@@ -1,7 +1,7 @@
 .colored-button{
   cursor: pointer;
   width: 100px;
-  height: 30px;
+  height: 50px;
   color:red;
   background-color: black;
 }

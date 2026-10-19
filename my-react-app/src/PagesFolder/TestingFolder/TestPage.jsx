@@ -5,8 +5,8 @@ import Burger from './Burger.jsx'
 function TestPage(){
     return(
         <>
+            <Header/>
             <Burger/>
-            <Footer/>
             <Footer/>
         </>
     );

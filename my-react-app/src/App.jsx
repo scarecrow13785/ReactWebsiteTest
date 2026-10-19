@@ -1,5 +1,5 @@
-import ReasonsLate from './ReasonsLate.jsx'
-import TestPage from './TestPage.jsx'
+import ReasonsLate from './PagesFolder/ReasonsLateFolder/ReasonsLate.jsx'
+import TestPage from './PagesFolder/TestingFolder/TestPage.jsx'
 
 import {
   BrowserRouter as Router,
